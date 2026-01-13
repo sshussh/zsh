@@ -7,3 +7,5 @@ alias cls="clear"
 alias neofetch="fastfetch --config neofetch.jsonc"
 
 alias weather="curl http://wttr.in/amman"
+
+alias editor="zeditor"

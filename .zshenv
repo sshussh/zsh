@@ -15,9 +15,6 @@ export TerminalEmulator="kitty"
 
 export PATH=$PATH:/home/shush/.spicetify
 
-export EDITOR="nvim"
-export VISUAL="code"
-
 GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
@@ -31,3 +28,10 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+export EDITOR="zeditor"
+export VISUAL="zeditor"
